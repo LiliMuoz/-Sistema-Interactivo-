@@ -19,7 +19,7 @@ Cómo usar el proyecto
 
 Clona el repositorio:
 
-git clone h
+git clone h github.com/LiliMuoz/-Sistema-Interactivo-
 
 
 
