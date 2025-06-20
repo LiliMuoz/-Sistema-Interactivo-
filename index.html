@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Interactivo de Mensajes s</title>
+
+    <meta name="description" content="Pagina web de Lilibeth Muñoz.">
+    <meta name="keywords" content="sistema,mensaje,nombre, edad, Lili">
+    <meta name="author" content="Lilibeth Muñoz">
+    <meta name="designer" content="Lilibeth">
+    <meta name="organization" content="Riwi">
+
+    <meta name="robots" content="index,follow"> <!-- otros motores de busqueda -->
+    <meta name="googlebot" content="index,follow"> <!-- motor de busqueda de google-->
+    <meta name="revisit-after" content="15days"> <!--cada 15 dias hacer actualización-->
+
+    <!--Icono de la pestaña-->
+    <link rel="shortcut icon" href="./images/log.webp" type="image/x-icon">
+
+    <!--Llamar al CSS-->
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+    <!--Llamar a JS-->
+    <script src="./JS/SistemaInteractivo.js"> </script>
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <section id="container-header">
+                <div id="logo">
+                    <a href="./index.html"><img src="./images/log.webp" alt="Logo de Entrelazados" title="Entrelazados"></a>
+                </div>
+            </section>
+        </header>
+
+        <section id="home">
+            <div id="message">
+                <p>Te damos la bienvenida a nuestro sitio Web de Sistema Interactivo de Mensajes </p>
+            </div>
+        </section>
+
+        
+        <section class="form-center-section" id="form-center-section">
+            <h3>Formulario</h3>
+
+                <!--Formulario-->
+            <div class="form-container">
+   
+                <form onsubmit="return validarFormulario ()" method="post">
+                    <label for="nombre">Nombres:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad" required>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer-icons">
+        <a href="https://www.linkedin.com/in/lilibeth-muñoz-a70b9020a" target="_blank">Linkedin</a>
+        <a href="https://github.com/LiliMuoz" target="_blank">Github</a>
+        <a href="mailto:lilibethmunozlopez1@gmail.com" target="_blank">Mail</a>
+    </footer>
+</body>
+</html>
